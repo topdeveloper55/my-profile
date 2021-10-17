@@ -29,6 +29,10 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -66,11 +70,11 @@
 			<div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
 				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
 					<div class="text text-center">
-						<span class="subheading">Hello World! I am</span>
+						<span class="subheading">Hello Everyone! I am</span>
 						<h1>Joaq Peralta</h1>
 						<h2>I am
 							<span class="txt-rotate" data-period="2000"
-								data-rotate='[ "a Competetive Programmer.", "a Software Developer.", "a Problem Solver.", "a Wesite Designer."]'></span>
+								data-rotate='[ "a Competetive Programmer.", "a Full stack Developer.", "a Problem Solver."]'></span>
 						</h2>
 					</div>
 				</div>
@@ -89,21 +93,13 @@
 	<section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row d-flex no-gutters">
-				<div class="col-md-6 col-lg-6 d-flex">
-					<div class="img-about img d-flex align-items-stretch">
-						<div class="overlay"></div>
-						<div class="img d-flex align-self-stretch align-items-center"
-							style="background-image:url(images/about.jpg);">
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6 pl-md-5 py-5">
+				<div class="pl-md-5 py-5">
 					<div class="row justify-content-start pb-3">
 						<div class="col-md-12 heading-section ftco-animate">
-							<h2 class="mb-4">About Me</h2>
-							<p>Welcome to my place of passion. Programming is not only my passion but is something that
-								I developed over time with great effort. I am driven by my insatiable fascination for
-								Computers I learn something new every day as there is so much yet to learn.</p>
+							<h2 class="mb-4" style="display: inline;">About Me</h2><p style="float: right;"><a href="Resume.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a>
+							<p>Full Stack Developer with over 8 years of experience in TypeScript/JavaScript, React, Node, Express, MongoDB, Next, blockchain. Led
+								website development of enterprise which manage and sell the medical video articles . Increased the popularity of the website by
+								making it user-friendly and beautiful and offering a variety of function. Strong experience with full stack development from scratch.</p>
 							<ul class="about-info mt-4 px-md-0 px-2">
 								<li class="d-flex"><span>Name:</span> <span>Joaq Peralta</span></li>
 								<li class="d-flex"><span>Email:</span> <span
@@ -111,13 +107,7 @@
 								<li class="d-flex"><span>Phone: </span> <span>+79585745766</span></li>
 								<li class="d-flex"><span>Country: </span> <span>Russia</span></li>
 								<li class="d-flex"><span>City: </span> <span>Moscow</span></li>
-							</ul>
-						</div>
-					</div>
-					<div class="counter-wrap ftco-animate d-flex mt-md-3">
-						<div class="text">
-							<p><a href="Resume.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a>
-							</p>
+							</ul>							
 						</div>
 					</div>
 				</div>
@@ -128,17 +118,7 @@
 	<section class="ftco-section ftco-no-pb goto-here" id="resume-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<nav id="navi">
-						<ul>
-							<li><a href="#page-1">Education</a></li>
-							<li><a href="#page-2">Experience</a></li>
-							<li><a href="#page-3">Skills</a></li>
-							<li><a href="#page-4">Awards</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-md-9">
+				<div class="col-md-12">
 					<div id="page-1" class="page one">
 						<h2 class="heading">Education</h2>
 						<div class="resume-wrap d-flex ftco-animate">
@@ -149,7 +129,7 @@
 								<h2>Pacific National University</h2>
 								<span class="position">Bachelor's Degree</span>
 								<p><strong>Computer Science</strong></p>
-								<span class="date">2011-2015</span>
+								<span class="date">2009-2011</span>
 							</div>
 						</div>
 					</div>
@@ -162,12 +142,15 @@
 							<div class="text pl-3">
 								<h2>Senior Fullstack Developer</h2>
 								<span class="position">JOMI</span>
-								<p class="date">May 2020 – June 2021</p>
+								<p class="date">2018 – 2021</p>
 								<ul>
-									<li>As a team leader, I built JOMI website which publish and sell the medical articles and videos.
-									</li>
-									<li>As a team leader, I offerd many ideas which improve the website function and implemented into
-										practice using react, next.js, mongoDB, material ui, tailwindcss.</li>
+									<li>Hired, trained and leading an team of 3 full-stack developers</li>
+									<li>Implemented different prices of articles for different
+										regions</li>
+									<li>Designed mongoDB database and implemented using
+										Mongoose</li>
+									<li>Worked with 3 team members to design and implement UI
+										using React, Material UI, Tailwindcss</li>
 								</ul>
 							</div>
 						</div>
@@ -178,97 +161,38 @@
 							<div class="text pl-3">
 								<h2>Frontend Developer</h2>
 								<span class="position">CLOUDSERVE LTD</span>
-								<p class="date">August 2018 – April 2020</p>
+								<p class="date">2013 – 2018</p>
 								<ul>
-									<li>As a lead front end developer, I contributed to several projects.</li>
-									<li>As a team leader, I designed the UI and developed the frontend using react, material ui,
-										tailwindcss, Next.js.
-									</li>									
+									<li>Designed and developed UI using React, Next, Material UI,
+										Bootstrap</li>
+									<li>Developed React components</li>	
+									<li>Worked with team members to improve performance of the
+										projects</li>	
+									<li>Hired and trained front end developers</li>							
 								</ul>
 							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-suitcase"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>MERN stack Developer</h2>
-								<span class="position">HWDTECH LLC</span>
-								<p class="date">August 2016 – June 2018</p>
-								<ul>
-									<li>As a full stack developer, I contributed to several projects using MERN stack including
-										"ecommerce project"</li>
-									<li>As a member of the team, I offered several valuable ideas and implemented into practice.
-									</li>									
-								</ul>
-							</div>
-						</div>
+						</div>						
 					</div>
 					<div id="page-3" class="page three">
 						<h2 class="heading">Skills</h2>
 						<!-- Skill Section -->
-						<div class="row mb-4 ftco-animate">
-							<div class="col grow"><img class="img-fluid"
-									src="https://reactnative.dev/img/header_logo.svg" title="React"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/next-js.svg"
-									title="Next.js"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/node.png" title="NodeJS"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/express.png"
-								title="Express"></div>
-							<div class="col grow"><img class="img-fluid"
-								src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-								title="MongoDB"></div>
-							<div class="col grow"><img class="img-fluid" title="GraphQL"
-									src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" /></div>							
-						</div>
-						<div class="row mb-4 ftco-animate">
-							<div class="col grow"><img class="img-fluid" src="images/skills/html.png" title="HTML">
-							</div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/css.png" title="CSS"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/javascript.png"
-									title="JavaScript"></div>							
-							<div class="col grow"><img class="img-fluid" src="images/skills/bootstrap.png"
-									title="Bootstrap"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/typescript.png"
-									title="TypeScript"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/aws.png" title="AWS"></div>							
-						</div>
-						<div class="row mb-4 ftco-animate">	
-							<div class="col grow"><img class="img-fluid" src="images/skills/awsec2.png" title="AWS EC2"></div>													
-							<div class="col grow"><img class="img-fluid" src="images/skills/github.png" title="github">
-							</div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/postgreSQL.png"
-									title="postgreSQL"></div>
-							<div class="col grow"><img class="img-fluid" src="images/skills/mysql.png" title="MySQL"></div>
-							<div class="col grow"></div>
-							<div class="col grow"></div>																
-						</div>
-					</div>
-					<div id="page-4" class="page four">
-						<h2 class="heading">Awards</h2>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>2019 Webby Award for Excellence in Navigation and Structure.</h2>
-								<span class="position"><strong>Full Stack Developer</strong></span>
-								<p class="date">August 2019</p>
-								<p>Moscow - Russia</p>
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-trophy"></span>
-							</div>
-							<div class="text pl-3">
-								<h2>Winner - CSS Design Competition</h2>
-								<span class="position"><strong>Competetor</strong></span>
-								<!-- <span><strong> - Techno International New Town</strong></span> -->
-								<p class="date">January 2017</p>
-								<p>Moscow - Russia</p>
-							</div>
-						</div>
+						<button class="btn btn-primary mb-2 mr-1">HTML</button>
+						<button class="btn btn-primary mb-2 mr-1">CSS</button>
+						<button class="btn btn-primary mb-2 mr-1">JavaScript</button>
+						<button class="btn btn-primary mb-2 mr-1">React</button>
+						<button class="btn btn-primary mb-2 mr-1">Redux</button>
+						<button class="btn btn-primary mb-2 mr-1">TypeScript</button>
+						<button class="btn btn-primary mb-2 mr-1">Material UI</button>
+						<button class="btn btn-primary mb-2 mr-1">Bootstrap</button>
+						<button class="btn btn-primary mb-2 mr-1">Tailwindcss</button>
+						<button class="btn btn-primary mb-2 mr-1">Node</button>
+						<button class="btn btn-primary mb-2 mr-1">Express</button>
+						<button class="btn btn-primary mb-2 mr-1">AWS</button>
+						<button class="btn btn-primary mb-2 mr-1">MongoDB</button>
+						<button class="btn btn-primary mb-2 mr-1">PostgreSQL</button>
+						<button class="btn btn-primary mb-2 mr-1">Blockchain</button>
+						<button class="btn btn-primary mb-2 mr-1">Jest</button>
+						<button class="btn btn-primary mb-2 mr-1">Git</button>						
 					</div>
 				</div>
 			</div>
@@ -277,7 +201,7 @@
 
 	<section class="ftco-section" id="project-section">
 		<div class="container-fluid px-md-5">
-			<div class="row justify-content-center py-5 mt-5">
+			<div class="row justify-content-center py-5">
 				<div class="col-md-12 heading-section text-center ftco-animate">
 					<h2 class="mb-4">Projects</h2>
 				</div>
@@ -340,7 +264,7 @@
 				<div class="col-md-7 ftco-animate text-center">
 					<h2>I'm <span>Available</span> for Hire</h2>
 					<p class="mb-0">I am looking for opportunities in<br>Software Development • Software Engineering •
-						Web Development</p>
+						Web Development • DeFi App</p>
 					<p class="mt-3 mb-0"><a href="resume.pdf" target="_blank" class="btn btn-primary py-3 px-5">Hire
 							me</a></p>
 				</div>
@@ -390,35 +314,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<div class="row no-gutters block-9">
-				<div class="col-md-6 order-md-last d-flex">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Name">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Your Email">
-						</div>
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
-						</div>
-						<div class="form-group">
-							<textarea name="" id="" cols="30" rows="7" class="form-control"
-								placeholder="Message"></textarea>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-						</div>
-					</form>
-
-				</div>
-
-				<div class="col-md-6 d-flex">
-					<div class="img" style="background-image: url(images/about.jpg);"></div>
-				</div>
-			</div>
+			</div>			
 		</div>
 	</section>
 
