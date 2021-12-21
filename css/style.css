@@ -9765,6 +9765,13 @@ textarea.form-control {
   background-position: center center;
   background-blend-mode: multiply;
 }
+.ruby {
+  background: rgba(0,0,0,0.7) url(../images/projects/ruby.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
 .sailme {
   background: rgba(0,0,0,0.7) url(../images/projects/img3.png);
   background-size: cover;
